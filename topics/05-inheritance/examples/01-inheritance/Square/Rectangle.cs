@@ -1,4 +1,5 @@
 using System;
+
 class Rectangle
 {
     protected double _width, _height;
