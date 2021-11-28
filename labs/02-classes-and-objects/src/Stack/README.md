@@ -12,17 +12,21 @@
 
 ### 2 - Yêu cầu
 #### 2.1 - Cài đặt lớp Stack mô tả các thao tác xử lý trên ngăn xếp với dữ liệu là số nguyên.
-Các thuộc tính:
+
+**Các thuộc tính:**
+
 - top: chỉ số của phần tử trên cùng.
 - Max: số phần tử đối đa.
 - stack: mảng chứa các phần tử.
-Các phương thức:
-- Thiết lập: khởi tạo ngăn xếp rỗng (gán chỉ số top = -1).
+
+**Các phương thức:**
+
+- Thiết lập: khởi tạo ngăn xếp rỗng.
 - Push(int data): thêm phần tử.
 - Pop(): lấy ra phần tử trên cùng.
 - Peek(): in ra phần tử trên cùng.
-- IsEmpty(): kiểm tra Stack có rỗng hay không.
-- Print(): In ra danh sách phần tử trong Stack.
+- IsEmpty(): kiểm tra ngăn xếp có rỗng hay không.
+- Print(): In ra danh sách phần tử.
 
 #### 2.2 - Chương trình chính
 - Sử dụng lớp Stack để phân tích một số nguyên thành thừa số nguyên tố, sau đó in ra các thừa số theo thứ tự ngược lại.
