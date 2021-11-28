@@ -1,14 +1,17 @@
-## Cài đặt ngăn xếp (Stack) 
+## Cài đặt cấu trúc ngăn xếp (Stack) 
+
+Ngăn xếp (Stack) là cấu trúc dữ liệu lưu trữ dữ liệu theo nguyên tắc "vào sau ra trước" (LIFO - last in first out). Cấu trúc ngăn xếp có các ứng dụng quan trọng, như tính giá trị biểu thức theo biểu thức hậu tố Ba Lan, quản lý lời gọi hàm đệ quy,...
 
 ### 1 - Mục đích
-- Vận dụng phương pháp lập trình HĐT cài đặt lớp ngăn xếp.
+- Vận dụng phương pháp lập trình HĐT cài đặt cấu trúc ngăn xếp.
 
 <a href="https://www.programiz.com/dsa/stack"><img src="stack-operations.webp" alt="Stack operations" style="width:70%"></a>
+
 
 - Sử dụng cấu trúc ngăn xếp trong các bài toán:
     - Phân tích số tự nhiên ra thừa số nguyên tố.
     - Đổi số hệ thập phân sang hệ nhị phân, thập lục phân.
-
+    - Tính giá trị biểu thức đại số.
 
 ### 2 - Yêu cầu
 #### 2.1 - Cài đặt lớp Stack mô tả các thao tác xử lý trên ngăn xếp
