@@ -3,7 +3,7 @@
 ### 1 - Mục đích
 - Vận dụng phương pháp lập trình HĐT cài đặt lớp ngăn xếp.
 
-<a href="https://www.programiz.com/dsa/stack"><img src="stack-operations.webp" alt="Stack operations" style="width:400px;height:200px;"></a>
+<a href="https://www.programiz.com/dsa/stack"><img src="stack-operations.webp" alt="Stack operations" style="width:70%"></a>
 
 - Sử dụng cấu trúc ngăn xếp trong các bài toán:
     - Phân tích số tự nhiên ra thừa số nguyên tố.
