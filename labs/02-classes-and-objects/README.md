@@ -8,8 +8,8 @@ Lớp và đối tượng
 ### Các bài thực hành:
 
 <ol>
-    <li><h3>Xử lý phân số</h3></li>
-    <li><h3>Các điểm trong mặt phẳng</h3></li>
+    <li><h3><a href="src/PhanSo">Xử lý phân số</a></h3></li>
+    <li><h3><a href="src/Point">Các điểm trong mặt phẳng</a></h3></li>
     <li><h3>Hình chữ nhật</h3></li>
     <li><h3>Hình tròn</h3></li>
     <li><h3>Quản lý sinh viên</h3></li>
