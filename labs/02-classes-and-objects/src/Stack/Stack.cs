@@ -1,7 +1,6 @@
 /*
 Cài đặt lớp Stack mô tả cấu trúc ngăn xếp xử lý các phần tử là số nguyên.
 */
-
 using System;
 
 class Stack
@@ -10,10 +9,6 @@ class Stack
     private int _top;               // chỉ số của phần tử trên cùng
     private int[] _stack = new int[Max];            // mảng chứa các phần tử
 
-    public int[] stack
-    {
-        get{return _stack;}
-    }
     // Hàm thiết lập
     public Stack()
     {
