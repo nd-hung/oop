@@ -1,0 +1,29 @@
+## Cài đặt ngăn xếp (Stack) 
+
+### 1 - Mục đích
+- Vận dụng phương pháp lập trình HĐT cài đặt lớp ngăn xếp.
+- Sử dụng ngăn xếp giải quyết các bài toán:
+    - Phân tích số tự nhiên ra thừa số nguyên tố.
+    - Đổi số hệ thập phân sang hệ nhị phân, thập lục phân.
+
+### 2 - Yêu cầu
+#### 2.1 - Cài đặt lớp Stack mô tả các thao tác xử lý trên ngăn xếp với dữ liệu là số nguyên.
+Các thuộc tính:
+- top: chỉ số của phần tử trên cùng.
+- Max: số phần tử đối đa.
+- stack: mảng chứa các phần tử.
+Các phương thức:
+- Thiết lập: khởi tạo ngăn xếp rỗng (gán chỉ số top = -1).
+- Push(int data): thêm phần tử.
+- Pop(): lấy ra phần tử trên cùng.
+- Peek(): in ra phần tử trên cùng.
+- IsEmpty(): kiểm tra Stack có rỗng hay không.
+- Print(): In ra danh sách phần tử trong Stack.
+
+### 2.2 - Chương trình chính
+- Sử dụng lớp Stack để phân tích một số nguyên thành thừa số nguyên tố, sau đó in ra các thừa số theo thứ tự ngược lại.
+Ví dụ:
+Input: 12
+Output: = 3 * 2 * 2
+
+- Sử dụng lớp Stack để đổi một số nguyên sang hệ nhị phân, thập lục phân.
