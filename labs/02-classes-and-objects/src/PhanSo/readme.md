@@ -1,7 +1,7 @@
 ## Xử lý phân số
 
 ### 1 -Mục đích
-- Vận dụng phương pháp lập trình HĐT giải quyết các xử lý cơ bản với phân số.
+- Vận dụng phương pháp lập trình HĐT cài đặt các xử lý cơ bản với phân số.
 
 ### 2 -Yêu cầu
 #### 2.1 - Cài đặt các lớp
