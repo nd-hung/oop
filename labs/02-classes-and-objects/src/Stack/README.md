@@ -11,7 +11,7 @@
 
 
 ### 2 - Yêu cầu
-#### 2.1 - Cài đặt lớp Stack mô tả các thao tác xử lý trên ngăn xếp với dữ liệu là số nguyên.
+#### 2.1 - Cài đặt lớp Stack mô tả các thao tác xử lý trên ngăn xếp
 
 **Các thuộc tính:**
 
