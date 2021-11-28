@@ -30,14 +30,20 @@
 
 #### 2.2 - Chương trình chính
 - Sử dụng lớp Stack để phân tích một số nguyên thành thừa số nguyên tố, sau đó in ra các thừa số theo thứ tự ngược lại.
-- Ví dụ:
-    - Input: 12
-    - Output: 3 * 2 * 2
+
+Ví dụ:
+    
+    Input: 12
+    
+    Output: 3 * 2 * 2
 
 - Sử dụng lớp Stack để đổi một số nguyên sang hệ nhị phân, thập lục phân.
-- Ví dụ:
-    - Input: 43
-    - Output:
+
+Ví dụ:
+    
+    Input: 43
+    
+    Output:
         
         Số 17 biểu diễn trong hệ nhị phân: 101011
 
