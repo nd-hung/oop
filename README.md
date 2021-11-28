@@ -17,7 +17,7 @@ Lập trình hướng đối tượng
 
 ### 2 - Bài thực hành
 #### [Lab 1 - Thiết lập môi trường lập trình C#](labs/01-environment-setup) 
-#### [Lab 2 - Lớp và đối tượng]()
+#### [Lab 2 - Lớp và đối tượng](https://github.com/nd-hung/oop/tree/main/labs/02-classes-and-objects)
 #### [Lab 3 - Thừa kế và đa hình]()
 #### [Lab 4 - Lập trình Windows với C#]()
 
