@@ -2,11 +2,13 @@
 
 ### 1 - Mục đích
 - Vận dụng phương pháp lập trình HĐT cài đặt lớp ngăn xếp.
+
+<a href="https://www.programiz.com/dsa/stack"><img src="stack-operations.webp" alt="Stack operations" style="width:400px;height:200px;"></a>
+
 - Sử dụng cấu trúc ngăn xếp giải quyết các bài toán:
     - Phân tích số tự nhiên ra thừa số nguyên tố.
     - Đổi số hệ thập phân sang hệ nhị phân, thập lục phân.
 
-<a href="https://www.programiz.com/dsa/stack"><img src="stack-operations.webp" alt="Stack operations" style="width:400px;height:200px;"></a>
 
 ### 2 - Yêu cầu
 #### 2.1 - Cài đặt lớp Stack mô tả các thao tác xử lý trên ngăn xếp với dữ liệu là số nguyên.
