@@ -14,12 +14,14 @@ Ngăn xếp (Stack) là cấu trúc dữ liệu lưu trữ danh sách các phầ
     - Tính giá trị biểu thức đại số.
 
 ### 2 - Yêu cầu
-#### 2.1 - Cài đặt lớp Stack mô tả các thao tác xử lý trên ngăn xếp
+#### 2.1 - Cài đặt lớp Stack 
+
+<img src="UML_Stack_class.png">
 
 **Các thuộc tính:**
 
-- top: chỉ số của phần tử trên cùng.
 - Max: số phần tử đối đa.
+- top: chỉ số của phần tử trên cùng.
 - stack: mảng chứa các phần tử.
 
 **Các phương thức:**
