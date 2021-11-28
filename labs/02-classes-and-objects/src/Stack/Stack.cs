@@ -50,6 +50,7 @@ class Stack
             Console.Write("{0}", _stack[0]);
     }
 
+    // Hàm in ra các phần tử (là số dư của phép chia cho 16)
     public void PrintHex()
     {
         string csHex = "0123456789ABCDEF";
