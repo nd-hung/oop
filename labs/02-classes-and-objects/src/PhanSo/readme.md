@@ -5,11 +5,11 @@
 
 ### 2 -Yêu cầu
 #### 2.1 - Cài đặt các lớp
-- Cài đặt lớp phân số với các thành phần như trong biểu đồ lớp sau.
+- Cài đặt lớp phân số với các thành phần như mô hình sau.
 
 <img src="phanso.png">
 
-- Cài đặt lớp danh sách phân số với các thành phần như trong biểu đồ lớp sau.
+- Cài đặt lớp danh sách phân số với các thành phần như mô hình sau.
 
 <img src="DSPhanSo.png">
 
