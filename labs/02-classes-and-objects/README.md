@@ -13,7 +13,7 @@ Lớp và đối tượng
     <li><h3>Hình chữ nhật</h3></li>
     <li><h3>Hình tròn</h3></li>
     <li><h3>Quản lý sinh viên</h3></li>
-    <li><h3>[Cấu trúc ngăn xếp (Stack) và ứng dụng](src/Stack)</h3></li>
+    <li><h3><a href="src/Stack">Cấu trúc ngăn xếp (Stack) và ứng dụng]</a</h3></li>
     <li><h3>Robot</h3></li>
 </ol>
 
