@@ -5,7 +5,7 @@
 
 <a href="https://www.programiz.com/dsa/stack"><img src="stack-operations.webp" alt="Stack operations" style="width:400px;height:200px;"></a>
 
-- Sử dụng cấu trúc ngăn xếp giải quyết các bài toán:
+- Sử dụng cấu trúc ngăn xếp trong các bài toán:
     - Phân tích số tự nhiên ra thừa số nguyên tố.
     - Đổi số hệ thập phân sang hệ nhị phân, thập lục phân.
 
