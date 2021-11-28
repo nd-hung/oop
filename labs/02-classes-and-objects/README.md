@@ -8,12 +8,12 @@ Lớp và đối tượng
 ### Các bài thực hành:
 
 <ol>
-    <li><h3>Phân số</h3></li>
+    <li><h3>Xử lý phân số</h3></li>
     <li><h3>Các điểm trong mặt phẳng</h3></li>
     <li><h3>Hình chữ nhật</h3></li>
     <li><h3>Hình tròn</h3></li>
-    <li><h3>Tài khoản ngân hàng</h3></li>
     <li><h3>Quản lý sinh viên</h3></li>
+    [<li><h3>Cấu trúc ngăn xếp (Stack) và ứng dụng</h3></li>](src/Stack)
     <li><h3>Robot</h3></li>
 </ol>
 
