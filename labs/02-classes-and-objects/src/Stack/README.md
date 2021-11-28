@@ -34,12 +34,12 @@ Ngăn xếp (Stack) là cấu trúc dữ liệu lưu trữ danh sách các phầ
 - Print(): In ra danh sách phần tử.
 
 #### 2.2 - Chương trình chính
-- Sử dụng lớp Stack để phân tích một số nguyên thành thừa số nguyên tố, sau đó in ra các thừa số theo thứ tự ngược lại.
+- Sử dụng lớp Stack để phân tích một số nguyên > 1 thành thừa số nguyên tố, sau đó in ra các thừa số theo thứ tự ngược lại.
 
     Ví dụ:
     ```console
     Input: 12
-    Output: 3 * 2 * 2
+    Output: 12 = 3 * 2 * 2
     ```
 - Sử dụng lớp Stack để đổi một số nguyên sang hệ nhị phân, thập lục phân.
 
