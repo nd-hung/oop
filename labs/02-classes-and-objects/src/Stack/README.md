@@ -8,10 +8,6 @@ Ngăn xếp (Stack) là cấu trúc dữ liệu lưu trữ danh sách các phầ
 
 ### 1 - Mục đích
 - Vận dụng phương pháp lập trình HĐT cài đặt cấu trúc ngăn xếp.
-
-
-
-
 - Sử dụng cấu trúc ngăn xếp trong các bài toán:
     - Phân tích số tự nhiên ra thừa số nguyên tố.
     - Đổi số hệ thập phân sang hệ nhị phân, thập lục phân.
