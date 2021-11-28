@@ -26,7 +26,24 @@ class Program
         }
 
         // In ra các phần tử trong ngăn xếp:
-        Console.WriteLine("So {0} phan tich ra thua so nguyen to:",n0);
+        Console.WriteLine("So {0} phan tich ra thua so nguyen to:", n0);
         s.Print();
+
+        // Đổi số n sang hệ 16
+        n = n0; // gán lại giá trị ban đầu của n
+        // Tạo 1 ngăn xếp mới (rỗng)
+        Stack stack2 = new Stack();
+        
+        while(n > 0)
+        {
+            // Lấy ra số dư của phép chia n/16
+            int soDu = n % 16;
+            stack2.Push(soDu);
+            n = n / 16;
+        }
+
+        // In ra ngăn xếp (chứa các số dư theo thứ tự ngược lại)
+        Console.WriteLine("\nSo {0} doi sang he 16 la", n0);
+        stack2.PrintHex();
     }
 }

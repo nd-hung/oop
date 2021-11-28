@@ -8,8 +8,12 @@ class Stack
 {
     private static readonly int Max=1000;  // Số phần tử tối đa của ngăn xếp
     private int _top;               // chỉ số của phần tử trên cùng
-    private int[] stack = new int[Max];            // mảng chứa các phần tử
+    private int[] _stack = new int[Max];            // mảng chứa các phần tử
 
+    public int[] stack
+    {
+        get{return _stack;}
+    }
     // Hàm thiết lập
     public Stack()
     {
@@ -24,7 +28,7 @@ class Stack
         else
         {
             _top ++;
-            stack[_top] = data;
+            _stack[_top] = data;
         }
     }
 
@@ -33,7 +37,7 @@ class Stack
     {
         if(_top >= 0)    
             {
-                int data = stack[_top];
+                int data = _stack[_top];
                 _top--;
                 return data;
             }
@@ -47,7 +51,14 @@ class Stack
             Console.WriteLine("Ngan xep rong!");
         else
             for(int i=_top; i > 0; i--)
-                Console.Write("{0}*", stack[i]);
-            Console.Write("{0}", stack[0]);
+                Console.Write("{0}*", _stack[i]);
+            Console.Write("{0}", _stack[0]);
+    }
+
+    public void PrintHex()
+    {
+        string csHex = "0123456789ABCDEF";
+        for(int i=_top; i >= 0; i--)
+            Console.Write(csHex[_stack[i]]);
     }
 }
