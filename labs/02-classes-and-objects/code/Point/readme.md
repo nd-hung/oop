@@ -3,7 +3,7 @@
 ## Mục đích
 - Giải quyết bài toán đơn giản theo phương pháp hướng đối tượng.
 
-<img src="2d_points.png">
+<img src="point2d.png">
 
 ## Yêu cầu
 ### Lớp Point mô tả điểm trong mặt phẳng
