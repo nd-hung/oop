@@ -2,10 +2,10 @@
 Lớp và đối tượng
 </h2>
 
-### Mục tiêu:
+### Mục tiêu
 - Vận dụng cách tiếp cận hướng đối tượng phân tích, thiết kế, cài đặt các bài toán đơn giản.
 
-### Các bài thực hành:
+### Các bài thực hành
 
 <ol>
     <li><h3><a href="code/PhanSo">Xử lý phân số</a></h3></li>
