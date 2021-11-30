@@ -12,6 +12,9 @@
 - Vận dụng tính đa hình trong kỹ thuật thừa kế để cài đặt cấu trúc ngăn xếp, cho phép các đối tượng khi gọi phương thức có cùng tên là Print() nhưng sẽ in ra dữ liệu phù hợp với tình huống.
 
 ### Yêu cầu
+
+<img src="figs/stack_2.png">
+
 #### Cài đặt lớp cơ sở Stack
 - Các thuộc tính:
     - Max, top, data: như version 1.
