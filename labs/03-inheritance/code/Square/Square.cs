@@ -21,7 +21,8 @@ class Rectangle
 
 /*
 Hình vuông là trường hợp đặc biệt của hình chữ nhật khi các cạnh bằng nhau. 
-Vì thế có thể cài đặt lớp hình vuông kế thừa lớp hình chữ nhật.
+Vì thế có thể cài đặt lớp hình vuông kế thừa lớp hình chữ nhật 
+mà không cần phải viết lại toàn bộ mã nguồn.
 */
 
 class Square: Rectangle
