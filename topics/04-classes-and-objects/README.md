@@ -29,25 +29,14 @@ Lớp và đối tượng
 }
 ```
 Trong đó:
-- Phạm vi truy cập (access modifier) xác định mức độ
-
-All types and type members have an accessibility level. The accessibility level controls whether they can be used from other code in your assembly or other assemblies. Use the following access modifiers to specify the accessibility of a type or member when you declare it:
-
-public: The type or member can be accessed by any other code in the same assembly or another assembly that references it. The accessibility level of public members of a type is controlled by the accessibility level of the type itself.
-private: The type or member can be accessed only by code in the same class or struct.
-protected: The type or member can be accessed only by code in the same class, or in a class that is derived from that class.
-internal: The type or member can be accessed by any code in the same assembly, but not from another assembly.
-protected internal: The type or member can be accessed by any code in the assembly in which it's declared, or from within a derived class in another assembly.
-private protected: The type or member can be accessed only within its declaring assembly, by code in the same class or in a type that is derived from that class.
+- Phạm vi truy cập (access modifier):
+    - public
+    - private
+    - internal
+    - protected internal
+    - private protected
 
  <h2>So sánh lớp và cấu trúc</h2>
 - Ngôn ngữ C# cung cấp 2 kiểu dữ liệu do người dùng định nghĩa là lớp (class) và cấu trúc (struct).
 - Lớp là kiểu dữ liệu tham chiếu (refernce type), một biến đối tượng tham chiếu đến địa chỉ của đối tượng trong vùng nhớ gọi là "managed heap". Nếu một biến đối tượng khác cùng lớp được gán bằng biến đối tượng trước đó, thì cả hai biến cùng tham chiếu đến cùng một đối tượng trong bộ nhớ.
 
-### <a name="resources">Tài liệu tham khảo</a>
-
-#### [Microsoft: .NET Framework documentation](https://docs.microsoft.com/en-us/dotnet/framework/)
-#### [Microsoft: C# tutorial](https://docs.microsoft.com/en-us/dotnet/csharp/)
-#### [Microsoft: .NET tutorial](https://dotnet.microsoft.com/learn/dotnet/in-browser-tutorial/)
-#### [W3Schools.com: C# tutorial](https://www.w3schools.com/cs/index.php/)
-#### [Visual Studio Code: Working with C#](https://code.visualstudio.com/docs/languages/csharp/)
