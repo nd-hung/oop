@@ -5,5 +5,5 @@
 
 ### Yêu cầu
 - Cài đặt các lớp theo lược đồ sau:
-<img src="uml_retangle_square.png">
+<img src="uml_rectangle_square.png">
 - Minh họa sử dụng các đối tượng trong chương trình chính.
