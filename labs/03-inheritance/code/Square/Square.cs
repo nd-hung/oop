@@ -23,6 +23,8 @@ class Rectangle
 Hình vuông là trường hợp đặc biệt của hình chữ nhật khi các cạnh bằng nhau. 
 Vì thế có thể cài đặt lớp hình vuông kế thừa lớp hình chữ nhật 
 mà không cần phải viết lại toàn bộ mã nguồn.
+Lớp hình chữ nhật cần chia sẻ các thành phần mà lớp hình vuông cũng có, như: các cạnh, 
+công thức tính diện tích.
 */
 
 class Square: Rectangle
