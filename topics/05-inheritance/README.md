@@ -91,12 +91,3 @@ class Square : Rectangle
 ### Lớp niêm phong (sealed class)
 Còn gọi là lớp cuối cùng (final class), do lớp này không cho phép lớp khác sử dụng lại nó.
 - Khi muốn một lớp không cho phép thừa kế, thêm từ khóa `sealed` trước khai báo tên lớp.
-- Ví dụ:
-```csharp
-// Lớp SavingAccount kế thừa lớp Account và không có lớp nào được kế thừa nó.
-sealed class SavingAccount : Account
-{
-    // Các thành phần dữ liệu của lớp SavingAccount
-    // Các phương thức của lớp SavingAccount
-}
-```
