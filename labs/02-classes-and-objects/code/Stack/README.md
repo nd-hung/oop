@@ -1,6 +1,6 @@
 ## Cài đặt cấu trúc ngăn xếp (Stack) - version 1.0
 
-Ngăn xếp (Stack) là cấu trúc dữ liệu lưu trữ danh sách các phần tử theo nguyên tắc "vào sau ra trước" (LIFO - last in first out). Cấu trúc ngăn xếp có các ứng dụng quan trọng, như tính giá trị biểu thức đại số, quản lý lời gọi hàm đệ quy,...
+Ngăn xếp (Stack) là cấu trúc dữ liệu lưu trữ danh sách các phần tử theo nguyên tắc "vào sau ra trước" (LIFO - last-in-first-out). Cấu trúc ngăn xếp có các ứng dụng quan trọng, như tính giá trị biểu thức đại số, quản lý lời gọi hàm,...
 
 [Mô phỏng hoạt động của ngăn xếp trong môi trường đồ họa.](https://yongdanielliang.github.io/animation/web/Stack.html)
 
