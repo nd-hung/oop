@@ -5,5 +5,5 @@
 
 ### Yêu cầu
 - Cài đặt các lớp theo lược đồ sau:
-<img src="uml_diagram.png">
+<img src="class_diagram.png">
 - Minh họa sử dụng các đối tượng trong chương trình chính.
