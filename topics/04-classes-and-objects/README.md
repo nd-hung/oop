@@ -36,7 +36,9 @@ Trong đó:
     - protected internal
     - private protected
 
+ 
  <h2>So sánh lớp và cấu trúc</h2>
+
 - Ngôn ngữ C# cung cấp 2 kiểu dữ liệu do người dùng định nghĩa là lớp (class) và cấu trúc (struct).
 - Lớp là kiểu dữ liệu tham chiếu (refernce type), một biến đối tượng tham chiếu đến địa chỉ của đối tượng trong vùng nhớ gọi là "managed heap". Nếu một biến đối tượng khác cùng lớp được gán bằng biến đối tượng trước đó, thì cả hai biến cùng tham chiếu đến cùng một đối tượng trong bộ nhớ.
 
