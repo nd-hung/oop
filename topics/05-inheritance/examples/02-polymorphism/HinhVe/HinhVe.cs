@@ -11,8 +11,7 @@ class HinhVe
     public virtual double DienTich()
     {
         return 0;
-    }
-       
+    }  
 }
 
 // Lớp HinhChuNhat kế thừa lớp hình vẽ
@@ -32,7 +31,6 @@ class HinhChuNhat: HinhVe
 }
 
 // Lớp HinhTron kế thừa lớp hình vẽ
-
 class HinhTron:HinhVe
 {
     private double _banKinh;
@@ -48,5 +46,35 @@ class HinhTron:HinhVe
     public override double DienTich()
     {
         return _banKinh * _banKinh * 3.1416;    
+    }
+}
+
+// Lớp tam giác kế thừa lớp hình vẽ
+class TamGiac:HinhVe
+{
+    private double _a, _b, _c;
+
+    public static bool LaTamGiac(double a, double b, double c)
+    {
+        return (a + b > c && a + c > b && b + c > a);
+    }
+    // hàm thiết lập
+    public TamGiac(double a, double b, double c)
+    {
+        if(!LaTamGiac(a,b,c))
+            throw new ArgumentException("Khong phai do dai 3 canh tam giac.");
+        else
+        {
+            _a = a;
+            _b = b;
+            _c = c;
+        }
+    }
+
+    // hàm tính & trả về diện tích tam giác
+    public override double DienTich()
+    {
+        double p = (_a + _b + _c)/2;
+        return(Math.Sqrt(p*(p - _a)*(p - _b)*(p - _c)));
     }
 }

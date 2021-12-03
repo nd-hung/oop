@@ -19,5 +19,12 @@ class Program
         Console.WriteLine("Hinh ve la {0}", hv2.GetType());
         // Phương thức hv2.DienTich() sẽ được ghi đè bởi phương thức HinhTron.DienTich()
         Console.WriteLine("Dien tich = " + hv2.DienTich().ToString());
+
+        // Tạo hình vẽ là hình tam giác
+        HinhVe hv3 = new TamGiac(3, 4, 5);
+        Console.WriteLine("Hinh ve la {0}", hv3.GetType());
+        // Phương thức hv3.DienTich() sẽ được ghi đè bởi phương thức TamGiac.DienTich()
+        Console.WriteLine("Dien tich = " + hv3.DienTich().ToString());
+
     }
 }
