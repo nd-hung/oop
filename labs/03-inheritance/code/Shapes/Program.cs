@@ -18,6 +18,8 @@ class Program
         s4.Input();
         Console.WriteLine("This is a {0}, area = {1}", s4.Name, s4.Area());
 
+        Shape s5 = new Circle(1);
+        Console.WriteLine("This is a {0}, area = {1}", s5.Name, s5.Area());
     }
 }
 
