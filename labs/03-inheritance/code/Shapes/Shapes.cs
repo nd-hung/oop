@@ -59,7 +59,7 @@ class Square : Rectangle
 // Lớp hình tròn (circle) kế thừa lớp Shape
 class Circle : Shape
 {
-    public static double Pi = 3.1416;
+    static double Pi = 3.1416;
     private double _radius;
 
     public Circle(double r = 0)
