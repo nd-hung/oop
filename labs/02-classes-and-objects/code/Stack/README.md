@@ -4,6 +4,8 @@ Ngăn xếp (Stack) là cấu trúc dữ liệu lưu trữ danh sách các phầ
 
 [Mô phỏng hoạt động của ngăn xếp trong môi trường đồ họa.](https://yongdanielliang.github.io/animation/web/Stack.html)
 
+> 
+
 <a href="https://www.programiz.com/dsa/stack"><img src="figs/stack-operations.webp" alt="Stack operations" style="width:70%"></a>
 
 ### 1 - Mục đích
@@ -12,7 +14,8 @@ Ngăn xếp (Stack) là cấu trúc dữ liệu lưu trữ danh sách các phầ
     - Phân tích số tự nhiên ra thừa số nguyên tố.
     - Đổi số hệ thập phân sang hệ nhị phân, thập lục phân.
     - Tính giá trị biểu thức đại số.
-
+- So sánh với lớp ngăn xếp dựng sẵn của C#.
+  
 ### 2 - Yêu cầu
 #### 2.1 - Cài đặt lớp Stack 
 
@@ -31,7 +34,7 @@ Ngăn xếp (Stack) là cấu trúc dữ liệu lưu trữ danh sách các phầ
 - Pop(): lấy ra phần tử trên cùng.
 - Peek(): in ra phần tử trên cùng.
 - IsEmpty(): kiểm tra ngăn xếp có rỗng hay không.
-- Print(): In ra danh sách phần tử.
+- Print(): in ra danh sách phần tử.
 
 #### 2.2 - Chương trình chính
 - Phân tích một số nguyên > 1 thành thừa số nguyên tố, sau đó in ra các thừa số theo thứ tự ngược lại. Các thừa số được đẩy vào stack.
