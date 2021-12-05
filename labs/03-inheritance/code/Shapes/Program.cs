@@ -28,6 +28,14 @@ class Program
         // Tạo một hình tròn có bán kính = 1
         Shape s5 = new Circle(1);
         Console.WriteLine("This is a {0}, area = {1}", s5.Name, s5.Area());
+
+        // Hoán đổi 2 đối tượng khác kiểu
+        Object t = new Object();
+        t = (Shape) s4;
+        s4 = (Shape) s5; 
+        s5 = (Shape) t;
+        Console.WriteLine("This is a {0}, area = {1}", s4.Name, s4.Area());
+        Console.WriteLine("This is a {0}, area = {1}", s5.Name, s5.Area());
     }
 }
 
