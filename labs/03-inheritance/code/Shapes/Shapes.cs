@@ -2,18 +2,21 @@ using System;
 
 abstract class Shape
 {
-    public string Name{get; set;}
+    public string Name
+    {
+        get { return this.GetType().ToString(); }
+    }
 
     public abstract void Input();
-   public abstract double Area();
+    public abstract double Area();
 }
 
-class Rectangle: Shape
+class Rectangle : Shape
 {
     protected double _width;
     protected double _height;
-    
-    public Rectangle(double w=0, double h=0)
+
+    public Rectangle(double w = 0, double h = 0)
     {
         _height = h;
         _width = w;
@@ -35,7 +38,7 @@ class Rectangle: Shape
 
 class Square : Rectangle
 {
-    public Square(double w=0):base(w, w)
+    public Square(double w = 0) : base(w, w)
     {
     }
 

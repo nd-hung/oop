@@ -12,11 +12,11 @@ class Program
 
         Shape s3 = new Rectangle();
         s3.Input();
-        Console.WriteLine("This is a {0}, area = {1}", s3.GetType(), s3.Area());
+        Console.WriteLine("This is a {0}, area = {1}", s3.Name, s3.Area());
 
         Shape s4 = new Square();
         s4.Input();
-        Console.WriteLine("This is a {0}, area = {1}", s4.GetType(), s4.Area());
+        Console.WriteLine("This is a {0}, area = {1}", s4.Name, s4.Area());
 
     }
 }
