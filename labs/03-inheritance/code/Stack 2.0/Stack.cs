@@ -73,7 +73,8 @@ class HexaStack:Stack
 
     /*
     In biểu diễn của các số tự nhiên trong ngăn xếp trong hệ 16.
-    Ví dụ, với data[]={7, 16, 43, 298} in ra {'7', '10', '2B', '12A'}
+    Ngăn xếp lưu các số nguyên là số dư của quá trình đổi sang hệ 16.
+    Ví dụ, với data[]={2, 15, 9, 12} in ra {'2', 'F', '9', 'C'}
     */
     public override void Print()
     {
