@@ -76,6 +76,6 @@ class Circle : Shape
 
     public override double Area()
     {
-        return Pi * _radius;
+        return Pi * _radius * _radius;
     }
 }
