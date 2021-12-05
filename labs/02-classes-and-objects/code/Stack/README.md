@@ -53,3 +53,4 @@ Ngăn xếp (Stack) là cấu trúc dữ liệu lưu trữ danh sách các phầ
         Số 43 biểu diễn trong hệ nhị phân: 101011
         Số 43 biểu diễn trong hệ thập lục phân: 2B
     ```
+    
