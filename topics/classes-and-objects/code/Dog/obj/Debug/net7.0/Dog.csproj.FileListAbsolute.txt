@@ -1,0 +1,15 @@
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\topics\classes-and-objects\code\Dog\bin\Debug\net7.0\Dog.exe
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\topics\classes-and-objects\code\Dog\bin\Debug\net7.0\Dog.deps.json
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\topics\classes-and-objects\code\Dog\bin\Debug\net7.0\Dog.runtimeconfig.json
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\topics\classes-and-objects\code\Dog\bin\Debug\net7.0\Dog.dll
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\topics\classes-and-objects\code\Dog\bin\Debug\net7.0\Dog.pdb
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\topics\classes-and-objects\code\Dog\obj\Debug\net7.0\Dog.csproj.AssemblyReference.cache
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\topics\classes-and-objects\code\Dog\obj\Debug\net7.0\Dog.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\topics\classes-and-objects\code\Dog\obj\Debug\net7.0\Dog.AssemblyInfoInputs.cache
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\topics\classes-and-objects\code\Dog\obj\Debug\net7.0\Dog.AssemblyInfo.cs
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\topics\classes-and-objects\code\Dog\obj\Debug\net7.0\Dog.csproj.CoreCompileInputs.cache
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\topics\classes-and-objects\code\Dog\obj\Debug\net7.0\Dog.dll
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\topics\classes-and-objects\code\Dog\obj\Debug\net7.0\refint\Dog.dll
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\topics\classes-and-objects\code\Dog\obj\Debug\net7.0\Dog.pdb
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\topics\classes-and-objects\code\Dog\obj\Debug\net7.0\Dog.genruntimeconfig.cache
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\topics\classes-and-objects\code\Dog\obj\Debug\net7.0\ref\Dog.dll
