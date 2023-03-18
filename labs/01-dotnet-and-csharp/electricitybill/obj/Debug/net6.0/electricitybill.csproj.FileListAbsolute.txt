@@ -1,0 +1,15 @@
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\labs\01-dotnet-and-csharp\electricitybill\bin\Debug\net6.0\electricitybill.exe
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\labs\01-dotnet-and-csharp\electricitybill\bin\Debug\net6.0\electricitybill.deps.json
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\labs\01-dotnet-and-csharp\electricitybill\bin\Debug\net6.0\electricitybill.runtimeconfig.json
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\labs\01-dotnet-and-csharp\electricitybill\bin\Debug\net6.0\electricitybill.dll
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\labs\01-dotnet-and-csharp\electricitybill\bin\Debug\net6.0\electricitybill.pdb
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\labs\01-dotnet-and-csharp\electricitybill\obj\Debug\net6.0\electricitybill.csproj.AssemblyReference.cache
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\labs\01-dotnet-and-csharp\electricitybill\obj\Debug\net6.0\electricitybill.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\labs\01-dotnet-and-csharp\electricitybill\obj\Debug\net6.0\electricitybill.AssemblyInfoInputs.cache
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\labs\01-dotnet-and-csharp\electricitybill\obj\Debug\net6.0\electricitybill.AssemblyInfo.cs
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\labs\01-dotnet-and-csharp\electricitybill\obj\Debug\net6.0\electricitybill.csproj.CoreCompileInputs.cache
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\labs\01-dotnet-and-csharp\electricitybill\obj\Debug\net6.0\electricitybill.dll
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\labs\01-dotnet-and-csharp\electricitybill\obj\Debug\net6.0\refint\electricitybill.dll
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\labs\01-dotnet-and-csharp\electricitybill\obj\Debug\net6.0\electricitybill.pdb
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\labs\01-dotnet-and-csharp\electricitybill\obj\Debug\net6.0\electricitybill.genruntimeconfig.cache
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\labs\01-dotnet-and-csharp\electricitybill\obj\Debug\net6.0\ref\electricitybill.dll
