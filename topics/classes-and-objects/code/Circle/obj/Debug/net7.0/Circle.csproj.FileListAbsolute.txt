@@ -1,0 +1,15 @@
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\topics\classes-and-objects\code\Circle\bin\Debug\net7.0\Circle.exe
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\topics\classes-and-objects\code\Circle\bin\Debug\net7.0\Circle.deps.json
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\topics\classes-and-objects\code\Circle\bin\Debug\net7.0\Circle.runtimeconfig.json
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\topics\classes-and-objects\code\Circle\bin\Debug\net7.0\Circle.dll
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\topics\classes-and-objects\code\Circle\bin\Debug\net7.0\Circle.pdb
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\topics\classes-and-objects\code\Circle\obj\Debug\net7.0\Circle.csproj.AssemblyReference.cache
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\topics\classes-and-objects\code\Circle\obj\Debug\net7.0\Circle.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\topics\classes-and-objects\code\Circle\obj\Debug\net7.0\Circle.AssemblyInfoInputs.cache
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\topics\classes-and-objects\code\Circle\obj\Debug\net7.0\Circle.AssemblyInfo.cs
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\topics\classes-and-objects\code\Circle\obj\Debug\net7.0\Circle.csproj.CoreCompileInputs.cache
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\topics\classes-and-objects\code\Circle\obj\Debug\net7.0\Circle.dll
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\topics\classes-and-objects\code\Circle\obj\Debug\net7.0\refint\Circle.dll
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\topics\classes-and-objects\code\Circle\obj\Debug\net7.0\Circle.pdb
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\topics\classes-and-objects\code\Circle\obj\Debug\net7.0\Circle.genruntimeconfig.cache
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\topics\classes-and-objects\code\Circle\obj\Debug\net7.0\ref\Circle.dll
