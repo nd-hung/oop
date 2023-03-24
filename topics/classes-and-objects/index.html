@@ -439,6 +439,39 @@ foreach (var obj in myObjects)
 </code></pre>
 <h3 id="danh-sach-ong-list">Danh sách động (list)<a class="headerlink" href="#danh-sach-ong-list" title="Permanent link">&para;</a></h3>
 <p>Một danh sách là tập các phần tử cùng kiểu, tuy nhiên kích thước của nó có thể thay đổi được trong khi chạy chương trình. Truy xuất đến từng phần tử của mdanh sách thông qua chỉ số (index) bắt đầu từ 0.</p>
+<ul>
+<li>Tạo danh sách động</li>
+</ul>
+<pre><code class="language-c#">List&lt;Kiểu dữ liệu&gt; &lt;Biến danh sách&gt; = new List&lt;Kiểu dữ liệu&gt;();
+</code></pre>
+<ul>
+<li>Ví dụ:</li>
+</ul>
+<pre><code class="language-c#">// Tạo danh sách động các số nguyên
+List&lt;int&gt; ints = new List&lt;int&gt;();
+
+// Thêm các phần tử (trong khi chạy chương trình)
+ints.Add(1);
+ints.Add(3);    
+ints.Add(2);
+ints.Add(4);
+ints.Add(2);
+
+// Sắp xếp tăng dần
+ints.Sort();
+
+// In danh sách sau khi sắp xếp                   
+foreach (int i in ints)
+{
+    Console.Write(&quot;{0} &quot;, i);
+}
+
+// In danh sách sau khi sắp xếp                   
+foreach (int i in ints)
+{
+    Console.Write(&quot;{0} &quot;, i);
+}
+</code></pre>
 <h2 id="inh-nghia-toan-tu-tren-lop">Định nghĩa toán tử trên lớp<a class="headerlink" href="#inh-nghia-toan-tu-tren-lop" title="Permanent link">&para;</a></h2></div>
             </div>
         </div>
