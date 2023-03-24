@@ -1,0 +1,15 @@
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\labs\02-classes-and-objects\code\PhanSo\bin\Debug\net6.0\PhanSo.exe
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\labs\02-classes-and-objects\code\PhanSo\bin\Debug\net6.0\PhanSo.deps.json
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\labs\02-classes-and-objects\code\PhanSo\bin\Debug\net6.0\PhanSo.runtimeconfig.json
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\labs\02-classes-and-objects\code\PhanSo\bin\Debug\net6.0\PhanSo.dll
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\labs\02-classes-and-objects\code\PhanSo\bin\Debug\net6.0\PhanSo.pdb
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\labs\02-classes-and-objects\code\PhanSo\obj\Debug\net6.0\PhanSo.csproj.AssemblyReference.cache
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\labs\02-classes-and-objects\code\PhanSo\obj\Debug\net6.0\PhanSo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\labs\02-classes-and-objects\code\PhanSo\obj\Debug\net6.0\PhanSo.AssemblyInfoInputs.cache
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\labs\02-classes-and-objects\code\PhanSo\obj\Debug\net6.0\PhanSo.AssemblyInfo.cs
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\labs\02-classes-and-objects\code\PhanSo\obj\Debug\net6.0\PhanSo.csproj.CoreCompileInputs.cache
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\labs\02-classes-and-objects\code\PhanSo\obj\Debug\net6.0\PhanSo.dll
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\labs\02-classes-and-objects\code\PhanSo\obj\Debug\net6.0\refint\PhanSo.dll
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\labs\02-classes-and-objects\code\PhanSo\obj\Debug\net6.0\PhanSo.pdb
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\labs\02-classes-and-objects\code\PhanSo\obj\Debug\net6.0\PhanSo.genruntimeconfig.cache
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\labs\02-classes-and-objects\code\PhanSo\obj\Debug\net6.0\ref\PhanSo.dll
