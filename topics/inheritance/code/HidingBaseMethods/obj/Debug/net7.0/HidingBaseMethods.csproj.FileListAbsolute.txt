@@ -1,0 +1,15 @@
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\topics\inheritance\code\HidingBaseMethods\obj\Debug\net7.0\HidingBaseMethods.csproj.AssemblyReference.cache
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\topics\inheritance\code\HidingBaseMethods\obj\Debug\net7.0\HidingBaseMethods.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\topics\inheritance\code\HidingBaseMethods\obj\Debug\net7.0\HidingBaseMethods.AssemblyInfoInputs.cache
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\topics\inheritance\code\HidingBaseMethods\obj\Debug\net7.0\HidingBaseMethods.AssemblyInfo.cs
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\topics\inheritance\code\HidingBaseMethods\obj\Debug\net7.0\HidingBaseMethods.csproj.CoreCompileInputs.cache
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\topics\inheritance\code\HidingBaseMethods\bin\Debug\net7.0\HidingBaseMethods.exe
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\topics\inheritance\code\HidingBaseMethods\bin\Debug\net7.0\HidingBaseMethods.deps.json
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\topics\inheritance\code\HidingBaseMethods\bin\Debug\net7.0\HidingBaseMethods.runtimeconfig.json
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\topics\inheritance\code\HidingBaseMethods\bin\Debug\net7.0\HidingBaseMethods.dll
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\topics\inheritance\code\HidingBaseMethods\bin\Debug\net7.0\HidingBaseMethods.pdb
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\topics\inheritance\code\HidingBaseMethods\obj\Debug\net7.0\HidingBaseMethods.dll
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\topics\inheritance\code\HidingBaseMethods\obj\Debug\net7.0\refint\HidingBaseMethods.dll
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\topics\inheritance\code\HidingBaseMethods\obj\Debug\net7.0\HidingBaseMethods.pdb
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\topics\inheritance\code\HidingBaseMethods\obj\Debug\net7.0\HidingBaseMethods.genruntimeconfig.cache
+C:\Users\Hung\OneDrive\OnlineLectures\oop\docs\topics\inheritance\code\HidingBaseMethods\obj\Debug\net7.0\ref\HidingBaseMethods.dll
