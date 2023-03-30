@@ -212,12 +212,12 @@ class Program
         Console.WriteLine(&quot;This is a {0}, area = {1:0.000}&quot;, s0.GetType(), s0.GetArea());
 
         // Khai báo đối tượng hình vẽ tổng quát và khởi tạo là hình tròn:
-        Shape s1 = new Circle(&quot;Circle&quot;, 1); // Khởi tạo tên, bán kính
+        Shape s1 = new Circle(1); // Khởi tạo bán kính = 1
         // In kiểu đối tượng &amp; diện tích
         Console.WriteLine(&quot;This is a {0}, area = {1:0.000}&quot;, s1.GetType(), s1.GetArea());
 
         // Khai báo đối tượng hình vẽ tổng quát và khởi tạo là hình chữ nhật:
-        Shape s2 = new Rectangle(&quot;Rectangle&quot;, 3, 7); // Khởi tạo tên, các cạnh
+        Shape s2 = new Rectangle(3, 7); // Khởi tạo các cạnh
         // In kiểu đối tượng &amp; diện tích
         Console.WriteLine(&quot;This is a {0}, area = {1:0.000}&quot;, s2.GetType(), s2.GetArea());
     }
