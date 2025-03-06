@@ -65,6 +65,23 @@ Nếu đổi mức độ truy cập của lớp `Dog` thành `public` và của 
 
 - **private protected**: Chỉ có thể truy xuất đến lớp và thành viên của lớp từ lớp thừa kế trong cùng một assembly.
 
+## Cài đặt trường (field), thuộc tính (property)
+Ngôn ngữ C# cung cấp tính năng cho phép thiết lập ràng buộc lên dữ liệu một cách chặt chẽ. Theo đó, dữ liệu của lớp được khai báo là biến thành viên gọi là trường (field). Các trường dữ liệu thường được thiết lập mức truy cập là `private` để chỉ cho phép truy xuất đến từ bên trong lớp. Khi muốn cung cấp chức năng truy xuất đến các trường dữ liệu từ bên ngoài một cách có kiểm soát, ta cài đặt thuộc tính - một cấu trúc kết hợp đặc điểm của cả trường dữ liệu và phương thức.
+
+Một thuộc tính 
+
+
+Properties combine aspects of both fields and methods. To the user of an object, a property appears to be a field; accessing the property requires the same syntax. To the implementer of a class, a property is one or two code blocks, representing a get accessor and/or a set or init accessor. The code block for the get accessor is executed when the property is read; the code block for the set or init accessor is executed when the property is assigned a value. A property without a set accessor is considered read-only. A property without a get accessor is considered write-only. A property that has both accessors is read-write. You can use an init accessor instead of a set accessor to enable the property to be set as part of object initialization but otherwise make it read-only.
+
+Unlike fields, properties aren't classified as variables. Therefore, you can't pass a property as a ref or out parameter.
+
+Properties have many uses:
+
+They can validate data before allowing a change.
+They can transparently expose data on a class where that data is retrieved from some other source, such as a database.
+They can take an action when data is changed, such as raising an event, or changing the value of other fields.
+Properties are declared in the class block by specifying the access level of the field, followed by the type of the property, followed by the name of the property, and followed by a code block that declares a get-accessor and/or a set accessor. For example
+
 ## Tạo, sử dụng và hủy đối tượng
 
 ### Tạo đối tượng
