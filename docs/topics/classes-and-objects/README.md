@@ -189,7 +189,8 @@ Một lớp chỉ có một hàm hủy duy nhất.
 }
 ```
 
-> Chú ý: NET 5 (gồm cả .NET Core) trở về sau không gọi hàm hủy khi kết thúc ứng dụng. Bạn có thể tạo ứng dụng với .NET Framework để kiểm nghiệm hoạt động của hàm hủy.
+!!! NOTE 
+    NET 5 (gồm cả .NET Core) trở về sau không gọi hàm hủy khi kết thúc ứng dụng. Bạn có thể tạo ứng dụng với .NET Framework để kiểm nghiệm hoạt động của hàm hủy.
 
 ## Lớp tĩnh, thành phần tĩnh
 
