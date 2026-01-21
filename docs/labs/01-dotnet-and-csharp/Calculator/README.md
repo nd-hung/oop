@@ -10,13 +10,18 @@ Làm quen với nền tảng .NET và ngôn ngữ C#.
 
 Viết chương trình nhập từ bàn phím hai số nguyên a, b và một ký tự ch.
 
-Nếu:
-- ch là "+" thì thực hiện phép tính a + b và in kết quả lên màn hình.
-- ch là "–" thì thực hiện phép tính a - b và in kết quả lên màn hình.
-- ch là "*" thì thực hiện phép tính a * b và in kết quả lên màn hình.
-- ch là "/" thì thực hiện phép tính a / b và in kết quả lên màn hình. Lưu ý kiểm tra điều kiện của phép chia.
+Nếu 'ch' là:
+
+- '+': thực hiện phép tính a + b và in kết quả lên màn hình.
+
+- '–': thực hiện phép tính a - b và in kết quả lên màn hình.
+
+- '*': thực hiện phép tính a * b và in kết quả lên màn hình.
+
+- '/': thực hiện phép tính a / b và in kết quả lên màn hình. Lưu ý kiểm tra điều kiện của phép chia.
 
 ## Ví dụ chạy chương trình
+
 <img src="run_example.PNG">
 
 ## Mã nguồn gợi ý
