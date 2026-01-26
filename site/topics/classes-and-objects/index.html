@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="light">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,9 +10,13 @@
         <link rel="shortcut icon" href="../../img/favicon.ico">
         <title>Lớp và đối tượng - Lập trình hướng đối tượng</title>
         <link href="../../css/bootstrap.min.css" rel="stylesheet">
-        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../../css/brands.min.css" rel="stylesheet">
+        <link href="../../css/solid.min.css" rel="stylesheet">
+        <link href="../../css/v4-font-face.min.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
         <link href="../../css/extra.css" rel="stylesheet">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/yaml.min.js"></script>
@@ -25,7 +29,7 @@
             <div class="container">
                 <a class="navbar-brand" href="../..">Lập trình hướng đối tượng</a>
                 <!-- Expander button -->
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
@@ -33,8 +37,8 @@
                 <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li class="dropdown active">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Các chủ đề <b class="caret"></b></a>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Các chủ đề</a>
                                 <ul class="dropdown-menu">
                                     
 <li>
@@ -46,7 +50,7 @@
 </li>
                                     
 <li>
-    <a href="./" class="dropdown-item active">Lớp và đối tượng</a>
+    <a href="./" class="dropdown-item active" aria-current="page">Lớp và đối tượng</a>
 </li>
                                     
 <li>
@@ -66,14 +70,14 @@
 </li>
                                 </ul>
                             </li>
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href="../../author/about/" class="nav-link">Giảng viên</a>
                             </li>
                         </ul>
 
-                    <ul class="nav navbar-nav ml-auto">
+                    <ul class="nav navbar-nav ms-md-auto">
                         <li class="nav-item">
-                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
@@ -88,7 +92,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="https://github.com/nd-hung/oop/tree/main/docs/topics/classes-and-objects/README.md" class="nav-link"><i class="fa fa-github"></i> Edit on GitHub</a>
+                                <a href="https://github.com/nd-hung/oop/tree/main/docs/topics/classes-and-objects/README.md" class="nav-link"><i class="fa-brands fa-github"></i> Edit on GitHub</a>
                             </li>
                     </ul>
                 </div>
@@ -97,56 +101,60 @@
 
         <div class="container">
             <div class="row">
-                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
     <div class="navbar-header">
-        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
             <span class="fa fa-angle-down"></span>
         </button>
     </div>
 
     
-    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#lop-va-oi-tuong" class="nav-link">Lớp và đối tượng</a>
+            <li class="nav-item" data-bs-level="1"><a href="#lop-va-oi-tuong" class="nav-link">Lớp và đối tượng</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-level="2"><a href="#cai-at-lop" class="nav-link">Cài đặt lớp</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#thiet-lap-tinh-bao-ong" class="nav-link">Thiết lập tính bao đóng</a>
+            <li class="nav-item" data-bs-level="2"><a href="#cai-at-lop" class="nav-link">Cài đặt lớp</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#tao-su-dung-va-huy-oi-tuong" class="nav-link">Tạo, sử dụng và hủy đối tượng</a>
+            <li class="nav-item" data-bs-level="2"><a href="#thiet-lap-tinh-bao-ong" class="nav-link">Thiết lập tính bao đóng</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#ham-thiet-lap-constructor" class="nav-link">Hàm thiết lập (constructor)</a>
+            <li class="nav-item" data-bs-level="2"><a href="#cai-at-truong-field-thuoc-tinh-property" class="nav-link">Cài đặt trường (field), thuộc tính (property)</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#ham-huy-destructorfinalizer" class="nav-link">Hàm hủy (destructor/finalizer)</a>
+            <li class="nav-item" data-bs-level="2"><a href="#tao-su-dung-va-huy-oi-tuong" class="nav-link">Tạo, sử dụng và hủy đối tượng</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#lop-tinh-thanh-phan-tinh" class="nav-link">Lớp tĩnh, thành phần tĩnh</a>
+            <li class="nav-item" data-bs-level="2"><a href="#ham-thiet-lap-constructor" class="nav-link">Hàm thiết lập (constructor)</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#con-tro-this" class="nav-link">Con trỏ this</a>
+            <li class="nav-item" data-bs-level="2"><a href="#ham-huy-destructorfinalizer" class="nav-link">Hàm hủy (destructor/finalizer)</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#danh-sach-oi-tuong" class="nav-link">Danh sách đối tượng</a>
+            <li class="nav-item" data-bs-level="2"><a href="#lop-tinh-thanh-phan-tinh" class="nav-link">Lớp tĩnh, thành phần tĩnh</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#nap-chong-phuong-thuc-method-overloading" class="nav-link">Nạp chồng phương thức (method overloading)</a>
+            <li class="nav-item" data-bs-level="2"><a href="#con-tro-this" class="nav-link">Con trỏ this</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#nap-chong-toan-tu-operator-overloading" class="nav-link">Nạp chồng toán tử (operator overloading)</a>
+            <li class="nav-item" data-bs-level="2"><a href="#danh-sach-oi-tuong" class="nav-link">Danh sách đối tượng</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#nap-chong-phuong-thuc-method-overloading" class="nav-link">Nạp chồng phương thức (method overloading)</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#nap-chong-toan-tu-operator-overloading" class="nav-link">Nạp chồng toán tử (operator overloading)</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -215,6 +223,16 @@ class Program
 <p><strong>private protected</strong>: Chỉ có thể truy xuất đến lớp và thành viên của lớp từ lớp thừa kế trong cùng một assembly.</p>
 </li>
 </ul>
+<h2 id="cai-at-truong-field-thuoc-tinh-property">Cài đặt trường (field), thuộc tính (property)<a class="headerlink" href="#cai-at-truong-field-thuoc-tinh-property" title="Permanent link">&para;</a></h2>
+<p>Ngôn ngữ C# cung cấp tính năng cho phép thiết lập ràng buộc lên dữ liệu một cách chặt chẽ. Theo đó, dữ liệu của lớp được khai báo là biến thành viên gọi là trường (field). Các trường dữ liệu thường được thiết lập mức truy cập là <code>private</code> để chỉ cho phép truy xuất đến từ bên trong lớp. Khi muốn cung cấp chức năng truy xuất đến các trường dữ liệu từ bên ngoài một cách có kiểm soát, ta cài đặt thuộc tính - một cấu trúc kết hợp đặc điểm của cả trường dữ liệu và phương thức.</p>
+<p>Một thuộc tính </p>
+<p>Properties combine aspects of both fields and methods. To the user of an object, a property appears to be a field; accessing the property requires the same syntax. To the implementer of a class, a property is one or two code blocks, representing a get accessor and/or a set or init accessor. The code block for the get accessor is executed when the property is read; the code block for the set or init accessor is executed when the property is assigned a value. A property without a set accessor is considered read-only. A property without a get accessor is considered write-only. A property that has both accessors is read-write. You can use an init accessor instead of a set accessor to enable the property to be set as part of object initialization but otherwise make it read-only.</p>
+<p>Unlike fields, properties aren't classified as variables. Therefore, you can't pass a property as a ref or out parameter.</p>
+<p>Properties have many uses:</p>
+<p>They can validate data before allowing a change.
+They can transparently expose data on a class where that data is retrieved from some other source, such as a database.
+They can take an action when data is changed, such as raising an event, or changing the value of other fields.
+Properties are declared in the class block by specifying the access level of the field, followed by the type of the property, followed by the name of the property, and followed by a code block that declares a get-accessor and/or a set accessor. For example</p>
 <h2 id="tao-su-dung-va-huy-oi-tuong">Tạo, sử dụng và hủy đối tượng<a class="headerlink" href="#tao-su-dung-va-huy-oi-tuong" title="Permanent link">&para;</a></h2>
 <h3 id="tao-oi-tuong">Tạo đối tượng<a class="headerlink" href="#tao-oi-tuong" title="Permanent link">&para;</a></h3>
 <ul>
@@ -308,9 +326,8 @@ Hàm hủy có chức năng dọn dẹp bộ nhớ, giải phóng tài nguyên.<
     // Các lệnh của hàm hủy
 }
 </code></pre>
-<blockquote>
-<p>Chú ý: NET 5 (gồm cả .NET Core) trở về sau không gọi hàm hủy khi kết thúc ứng dụng. Bạn có thể tạo ứng dụng với .NET Framework để kiểm nghiệm hoạt động của hàm hủy.</p>
-</blockquote>
+<p>!!! NOTE 
+    NET 5 (gồm cả .NET Core) trở về sau không gọi hàm hủy khi kết thúc ứng dụng. Bạn có thể tạo ứng dụng với .NET Framework để kiểm nghiệm hoạt động của hàm hủy.</p>
 <h2 id="lop-tinh-thanh-phan-tinh">Lớp tĩnh, thành phần tĩnh<a class="headerlink" href="#lop-tinh-thanh-phan-tinh" title="Permanent link">&para;</a></h2>
 <h3 id="lop-tinh">Lớp tĩnh<a class="headerlink" href="#lop-tinh" title="Permanent link">&para;</a></h3>
 <p>Khác với lớp thường, một lớp tĩnh (static class) không cho phép tạo ra các đối tượng (không thể dùng toán tử <code>new</code> để tạo đối tượng của lớp tĩnh).</p>
@@ -536,8 +553,7 @@ public static class TestOperatorOverloading
             <hr>
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
-        <script src="../../js/jquery-3.6.0.min.js"></script>
-        <script src="../../js/bootstrap.min.js"></script>
+        <script src="../../js/bootstrap.bundle.min.js"></script>
         <script>
             var base_url = "../..",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
@@ -550,7 +566,7 @@ public static class TestOperatorOverloading
         <div class="modal-content">
             <div class="modal-header">
                 <h4 class="modal-title" id="searchModalLabel">Search</h4>
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
                 <p>From here you can search these documents. Enter your search terms below.</p>
@@ -570,7 +586,7 @@ public static class TestOperatorOverloading
         <div class="modal-content">
             <div class="modal-header">
                 <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
               <table class="table">

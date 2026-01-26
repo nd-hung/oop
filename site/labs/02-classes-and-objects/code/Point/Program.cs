@@ -7,7 +7,7 @@
         const int Max = 100;
         List<Point> pointList = new List<Point>();
 
-        Point GocToaDo = new Point(0, 0);
+        Point GocToaDo = new Point(0, 0); // Gốc tọa độ
 
         do
         {
@@ -45,11 +45,16 @@
         }
 
         // Tìm điểm gần gốc tọa độ nhất
+        // Khai báo biến minDistance và khởi tạo bằng khoảng cách từ điểm đầu tiên đến gốc tọa độ
         double minDistance = pointList[0].Distance(GocToaDo);
+        // Biến nearestPoint là đối tượng thuộc lớp Point, khởi tạo bằng điểm đầu tiên trong danh sách
         Point nearestPoint = pointList[0];
+        // Xét lần lượt các điểm còn lại
         for (int i = 1; i < pointList.Count; i++)
         {
+            // Tính khoảng cách từng điểm đến gốc tọa độ
             double distance = pointList[i].Distance(GocToaDo);
+            // Nếu có điểm gần gốc tọa độ hơn thì thực hiện lệnh gán
             if (distance < minDistance)
             {
                 minDistance = distance;
@@ -57,9 +62,12 @@
             }
         }
 
+        // Xuất kết quả
         Console.WriteLine("Diem gan goc toa do nhat: ");
         nearestPoint.Xuat();
 
-        // Tìm cặp điểm gần nhau nhất: So sách khoảng cách từng cặp điểm -> tìm cặp có khoảng cách ngắn nhất
+        /* Tìm cặp điểm gần nhau nhất
+        HD: So sánh khoảng cách từng cặp điểm -> tìm cặp có khoảng cách ngắn nhất.
+        */
     }
 }

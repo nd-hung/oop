@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="light">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,9 +10,13 @@
         <link rel="shortcut icon" href="../../img/favicon.ico">
         <title>Nền tảng .NET và ngôn ngữ C# - Lập trình hướng đối tượng</title>
         <link href="../../css/bootstrap.min.css" rel="stylesheet">
-        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../../css/brands.min.css" rel="stylesheet">
+        <link href="../../css/solid.min.css" rel="stylesheet">
+        <link href="../../css/v4-font-face.min.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
         <link href="../../css/extra.css" rel="stylesheet">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/yaml.min.js"></script>
@@ -25,7 +29,7 @@
             <div class="container">
                 <a class="navbar-brand" href="../..">Lập trình hướng đối tượng</a>
                 <!-- Expander button -->
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
@@ -33,8 +37,8 @@
                 <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li class="dropdown active">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Các chủ đề <b class="caret"></b></a>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Các chủ đề</a>
                                 <ul class="dropdown-menu">
                                     
 <li>
@@ -42,7 +46,7 @@
 </li>
                                     
 <li>
-    <a href="./" class="dropdown-item active">Nền tảng .NET và ngôn ngữ C#</a>
+    <a href="./" class="dropdown-item active" aria-current="page">Nền tảng .NET và ngôn ngữ C#</a>
 </li>
                                     
 <li>
@@ -66,14 +70,14 @@
 </li>
                                 </ul>
                             </li>
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href="../../author/about/" class="nav-link">Giảng viên</a>
                             </li>
                         </ul>
 
-                    <ul class="nav navbar-nav ml-auto">
+                    <ul class="nav navbar-nav ms-md-auto">
                         <li class="nav-item">
-                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
@@ -88,7 +92,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="https://github.com/nd-hung/oop/tree/main/docs/topics/dotnet-and-csharp/README.md" class="nav-link"><i class="fa fa-github"></i> Edit on GitHub</a>
+                                <a href="https://github.com/nd-hung/oop/tree/main/docs/topics/dotnet-and-csharp/README.md" class="nav-link"><i class="fa-brands fa-github"></i> Edit on GitHub</a>
                             </li>
                     </ul>
                 </div>
@@ -97,29 +101,29 @@
 
         <div class="container">
             <div class="row">
-                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
     <div class="navbar-header">
-        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
             <span class="fa fa-angle-down"></span>
         </button>
     </div>
 
     
-    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#net-va-c" class="nav-link">.NET và C#</a>
+            <li class="nav-item" data-bs-level="1"><a href="#net-va-c" class="nav-link">.NET và C#</a>
               <ul class="nav flex-column">
               </ul>
             </li>
             
-            <li class="nav-item" data-level="1"><a href="#ngon-ngu-lap-trinh-c" class="nav-link">Ngôn ngữ lập trình C#</a>
+            <li class="nav-item" data-bs-level="1"><a href="#ngon-ngu-lap-trinh-c" class="nav-link">Ngôn ngữ lập trình C#</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-level="2"><a href="#cac-kieu-du-lieu-cua-c" class="nav-link">Các kiểu dữ liệu của C#</a>
+            <li class="nav-item" data-bs-level="2"><a href="#cac-kieu-du-lieu-cua-c" class="nav-link">Các kiểu dữ liệu của C#</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#nen-tang-net" class="nav-link">Nền tảng .NET</a>
+            <li class="nav-item" data-bs-level="2"><a href="#nen-tang-net" class="nav-link">Nền tảng .NET</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -140,24 +144,18 @@
 <h3 id="lop-va-oi-tuong">Lớp và đối tượng<a class="headerlink" href="#lop-va-oi-tuong" title="Permanent link">&para;</a></h3>
 <ul>
 <li>
-<p>Lớp (class) và đối tượng (object) là hai thành phần cơ bản của lập trình hướng đối tượng.</p>
-</li>
-<li>
-<p>Một lớp là một cấu trúc dữ liệu kết hợp dữ liệu (gọi là thuộc tính - properties) và các xử lý với dữ liệu đó (gọi là phương thức - methods) vào một đơn vị thống nhất.</p>
-</li>
-<li>
-<p>Đối tượng là một thực thể tạo ra từ lớp.</p>
+<p>Lớp (class) và đối tượng (object) là hai thành phần cơ bản của lập trình hướng đối tượng. Một lớp là một cấu trúc dữ liệu kết hợp dữ liệu (gọi là thuộc tính - properties) và các xử lý với dữ liệu đó (gọi là phương thức - methods) vào một đơn vị thống nhất. Đối tượng là một thực thể tạo ra từ lớp.</p>
 </li>
 <li>
 <p>Ví dụ sau khai báo lớp Point mô tả các điểm trong mặt phẳng:</p>
 </li>
 </ul>
-<pre><code class="language-c#">public class Point
+<pre><code class="language-cs">public class Point
 {
-    public int X { get; }
-    public int Y { get; }
+    public int X { get; }       // Hoành độ
+    public int Y { get; }       // Tung độ
 
-    public Point(int x, int y) 
+    public Point(int x, int y)  // Hàm thiết lập (constructor)
     {
         X = x;
         Y = y;
@@ -165,7 +163,7 @@
 }
 </code></pre>
 <h2 id="nen-tang-net">Nền tảng .NET<a class="headerlink" href="#nen-tang-net" title="Permanent link">&para;</a></h2>
-<p><a href="https://learn.microsoft.com/en-us/dotnet/">.NET - do Microsoft phát triển</a> - là nền tảng lập trình miễn phí và mã nguồn mở. Với .NET có thể tạo </p></div>
+<p><a href="https://learn.microsoft.com/en-us/dotnet/">.NET - do Microsoft phát triển</a> - là nền tảng lập trình miễn phí và mã nguồn mở.</p></div>
             </div>
         </div>
 
@@ -173,8 +171,7 @@
             <hr>
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
-        <script src="../../js/jquery-3.6.0.min.js"></script>
-        <script src="../../js/bootstrap.min.js"></script>
+        <script src="../../js/bootstrap.bundle.min.js"></script>
         <script>
             var base_url = "../..",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
@@ -187,7 +184,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <h4 class="modal-title" id="searchModalLabel">Search</h4>
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
                 <p>From here you can search these documents. Enter your search terms below.</p>
@@ -207,7 +204,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
               <table class="table">

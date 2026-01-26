@@ -30,5 +30,4 @@ public class Point
 
 ## Nền tảng .NET
 
-[.NET - do Microsoft phát triển](https://learn.microsoft.com/en-us/dotnet/) - là nền tảng lập trình miễn phí và mã nguồn mở. Với .NET có thể tạo
-
+[.NET - do Microsoft phát triển](https://learn.microsoft.com/en-us/dotnet/) - là nền tảng lập trình miễn phí và mã nguồn mở.
